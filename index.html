@@ -1,51 +1,135 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8" />
-    <title>welcome!</title>
-    <meta property="og:title" content="Taichi Tashiro" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>田代 太地の職務経歴書</title>
     <meta
-      property="og:image"
-      content="https://tatashir.github.io/img/hokkaido.jpg"
-    />
-    <meta property="og:url" content="https://tatashir.github.io" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Catamaran:100"
-      rel="stylesheet"
+      name="description"
+      content="田代太一の職務経歴書（ITコンサルタント）"
     />
     <style>
       body {
-        font-family: sans-serif;
-        font-weight: 100;
-        font-size: 20px;
-        line-height: 1.5;
-        text-align: center;
-        background: whitesmoke;
+        font-family: "Arial", sans-serif;
+        background: #f9fafb;
+        color: #333;
         margin: 0;
-        padding: 0;
+        padding: 2rem;
       }
       .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: white;
-        border-radius: 10px;
+        max-width: 960px;
+        margin: auto;
+        background: #fff;
+        padding: 2rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #1f2937;
       }
       h1 {
-        font-size: 2.5em;
-        margin-bottom: 0.5em;
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
       }
-      .image {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
+      h2 {
+        font-size: 1.75rem;
+        margin-top: 2rem;
+        border-bottom: 2px solid #3b82f6;
+        padding-bottom: 0.25rem;
+      }
+      h3 {
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.25rem;
+      }
+      .section p,
+      ul {
+        line-height: 1.6;
+        font-size: 1rem;
+      }
+      .meta {
+        color: #6b7280;
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+      }
+      ul {
+        padding-left: 1.25rem;
+      }
+      li {
+        margin-bottom: 0.5rem;
+      }
+      a {
+        color: #2563eb;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>welcome!</h1>
-      <img src="./img/hokkaido.jpg" class="image" />
+      <header>
+        <h1>田代 太地（Tashiro Taichi）</h1>
+        <p class="meta">24歳・東京都在住｜ITコンサルタント</p>
+      </header>
+
+      <section class="section">
+        <h2>プロフィール</h2>
+        <p>
+          前職ではフロントエンドエンジニアとしてMAツールの開発に従事し、現在は官公庁システムの要件定義やモック開発を担当。情報整理力とドキュメント設計を強みとし、複数ベンダーとの調整や業務フローの可視化などに貢献。
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>職務経歴</h2>
+        <h3>
+          <a href="https://www.css-net.co.jp/" target="_blank"
+            >株式会社シー・エス・エス</a
+          >（2025年4月〜現在）
+        </h3>
+        <p class="meta">職種：ITコンサルタント</p>
+        <ul>
+          <li>
+            官公庁向け電子入札システム再構築における要件定義・UIモック作成
+          </li>
+          <li>大手SIer、ベンダーなどとの仕様調整、議事録作成、資料設計</li>
+          <li>技術：HTML, CSS, Word, Excel, Git, Box, Notion</li>
+        </ul>
+
+        <h3>株式会社コードアーツ（2024年4月〜2025年3月）</h3>
+        <p class="meta">職種：フロントエンドエンジニア</p>
+        <ul>
+          <li>アパレル企業向けMAツール開発（Vue.js / TypeScript）</li>
+          <li>API連携、UI実装、保守対応、Figma連携</li>
+          <li>技術：Vue.js, TypeScript, GraphQL, Firebase, GitHub</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>スキルセット</h2>
+        <ul>
+          <li>
+            <strong>言語／FW：</strong>TypeScript, JavaScript, Vue.js, React
+          </li>
+          <li><strong>ツール：</strong>Git, Docker, Firebase, Figma, Notion</li>
+          <li><strong>業務知識：</strong>要件定義、UI設計、ドキュメント作成</li>
+          <li><strong>資格：</strong>基本情報技術者</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>学歴</h2>
+        <ul>
+          <li>日本大学 理工学部 精密機械工学科 中退</li>
+          <li>帝京大学 理工学部 情報科学科（通信）中退</li>
+          <li>
+            <a href="https://42tokyo.jp/" target="_blank">42Tokyo</a> 中退
+          </li>
+        </ul>
+      </section>
     </div>
   </body>
 </html>
